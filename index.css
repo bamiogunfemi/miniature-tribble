@@ -55,50 +55,15 @@
 
 .notifications-border {
   border-bottom: 2px solid #084482;
-  width: 140px;
+  width: 90px;
 }
 
-.list-group-item:after {
-  content: ""; /* This is necessary for the pseudo element to work. */
-  display: block; /* This will put the pseudo element on its own line. */
-  /* This will center the border. */
-  width: 80%; /* Change this to whatever width you want. */
-  padding-top: 20px; /* This creates some space between the element and the border. */
-  border-bottom: 1px solid rgba(196, 196, 196, 0.5);
-}
-.custom-control-label::before,
-.custom-control-label::after {
-  width: 20px;
-  height: 20px;
-}
+
 
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-  background: #084482 !important;
-}
-
-.custom-switch.custom-switch .custom-control-label {
-  padding-left: 4rem;
-  padding-bottom: 2.5rem;
-}
-
-.custom-switch.custom-switch .custom-control-label::before {
-  height: 2.5rem;
-  width: calc(4rem + 0.75rem);
-  border-radius: 5rem;
-}
-
-.custom-switch.custom-switch .custom-control-label::after {
-  width: calc(2.5rem - 4px);
-  height: calc(2.5rem - 4px);
-  border-radius: calc(4rem - (2.5rem / 2));
-}
-
-.custom-switch.custom-switch
-  .custom-control-input:checked
-  ~ .custom-control-label::after {
-  transform: translateX(calc(2.5rem - 0.25rem));
+  background: #084482;
 }
