@@ -77,7 +77,7 @@
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-  background: #084482;
+  background: #084482 !important;
 }
 
 .custom-switch.custom-switch .custom-control-label {
